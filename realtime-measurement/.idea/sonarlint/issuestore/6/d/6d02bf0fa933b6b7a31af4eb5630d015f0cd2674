@@ -1,0 +1,7 @@
+
+
+java:S1319"mThe return type of this method should be an interface such as "Map" rather than the implementation "HashMap".(Í³¦øÿÿÿÿ8ˆ¬£³º1
+W
+java:S1854&":Remove this useless assignment to local variable "newAvg".(æÚÔ„8‡­£³º1
+T
+java:S1068"2Remove this unused "rabbitTemplate" private field.(íº¬Ïúÿÿÿÿ8—­£³º1

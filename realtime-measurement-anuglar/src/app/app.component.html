@@ -1,0 +1,47 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<noscript><h2 style="color: #ff0000">Seems your browser doesn't support Javascript! Websocket relies on Javascript being
+  enabled. Please enable
+  Javascript and reload this page!</h2></noscript>
+<div id="main-content" class="container">
+
+  <div class="row">
+    <div class="col-md-12">
+<!--      {{ greeting }}-->
+    </div>
+  </div>
+
+  <div class="panel-group">
+    <div class="panel panel-primary ">
+      <div class="panel-heading">WebSocket connection :</div>
+      <form class="panel-body">
+        <div class="form-group mt-3">
+          <button (click)="connect()" class="btn btn-outline-success mx-5" data-mdb-ripple-color="dark" type="submit">Connect</button>
+          <button (click)="disconnect()" class="btn btn-outline-danger" data-mdb-ripple-color="dark" type="submit">Disconnect</button>
+        </div>
+      </form>
+      <div class="panel panel-default mt-3">
+        <form class="form-inline">
+          <button (click)="sendMessage()"  class="btn btn-outline-primary mx-5" data-mdb-ripple-color="dark" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+    
+
+    <table class="table table-striped mt-3 table-hover">
+      <tr>
+        <th  scope="col">Device Address</th>
+        <th scope="col">Avg. Temperature</th>
+        <th scope="col">Avg. Humidity</th>
+      </tr>
+      <tbody class="table-group-divider">
+        <tr *ngFor="let item of measurementResultArr">
+          <td>{{item.deviceAddress}}</td>
+          <td>{{item.avgTemperature | number : '1.2-2'}}</td>
+          <td>{{item.avgHumidity | number : '1.2-2'}}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>
+<router-outlet></router-outlet>

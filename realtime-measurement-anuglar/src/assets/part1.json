@@ -1,0 +1,113 @@
+[
+  {
+    "reporter": {
+      "name": "meeting",
+      "identifier": "80:8D:B7:C6:87:6A",
+      "ipv4": "172.16.1.13",
+      "ipv6": "fe80::828d:b7ff:fec6:876a",
+      "hwType": "AP-315",
+      "firmwareVersion": "8.10.0.6"
+    },
+    "measurements": [
+      {
+        "type": "BleRawData",
+        "deviceAddress": "04:EE:03:DC:E1:6A",
+        "rssi": -65,
+        "data": {
+          "temperature": 33.0,
+          "humidity": 10.0
+        }
+      },
+      {
+        "type": "BleRawData",
+        "deviceAddress": "04:EE:03:DC:E1:AA",
+        "rssi": -45,
+        "data": {
+          "temperature": 13.0,
+          "humidity": 32.0
+        }
+      }
+    ]
+  },
+  {
+    "reporter": {
+      "name": "buero",
+      "identifier": "80:8D:B7:C6:9A:C8",
+      "ipv4": "172.16.1.12",
+      "ipv6": "fe80::828d:b7ff:fec6:9ac8",
+      "hwType": "AP-315",
+      "firmwareVersion": "8.10.0.6"
+    },
+    "measurements": [
+      {
+        "type": "BleRawData",
+        "deviceAddress": "04:EE:03:DC:E1:77",
+        "rssi": -88,
+        "data": {
+          "temperature": 26.0,
+          "humidity": 26.0
+        }
+      },
+      {
+        "type": "BleRawData",
+        "deviceAddress": "04:EE:03:DC:E1:66",
+        "rssi": -62,
+        "data": {
+          "temperature": 22.0,
+          "humidity": 25.0
+        }
+      }
+    ]
+  },
+  {
+    "reporter": {
+      "name": "buchhaltung",
+      "identifier": "80:8D:B7:C6:A8:E8",
+      "ipv4": "172.16.1.10",
+      "ipv6": "fe80::828d:b7ff:fec6:a8e8",
+      "hwType": "AP-315",
+      "firmwareVersion": "8.10.0.6"
+    },
+    "measurements": [
+      {
+        "type": "BleRawData",
+        "deviceAddress": "04:EE:03:DC:E1:6A",
+        "rssi": -86,
+        "data": {
+          "temperature": 26.0,
+          "humidity": 15.0
+        }
+      },
+      {
+        "type": "BleRawData",
+        "deviceAddress": "04:EE:03:DC:E1:AA",
+        "rssi": -90,
+        "data": {
+          "temperature": 12.0,
+          "humidity": 30.0
+        }
+      }
+    ]
+  },
+  {
+    "reporter": {
+      "name": "buero",
+      "identifier": "80:8D:B7:C6:9A:C8",
+      "ipv4": "172.16.1.12",
+      "ipv6": "fe80::828d:b7ff:fec6:9ac8",
+      "hwType": "AP-315",
+      "firmwareVersion": "8.10.0.6"
+    },
+    "measurements": [
+      {
+        "type": "BleRawData",
+        "deviceAddress": "04:EE:03:DC:E1:77",
+        "rssi": -55,
+        "data": {
+          "temperature": 30.0,
+          "humidity": 20.0
+        }
+      }
+    ]
+  }
+]
